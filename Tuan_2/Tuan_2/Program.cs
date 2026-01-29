@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Nhập họ và tên: ");
-            string input = Console.ReadLine();
+            Console.WriteLine("Nhap ho va ten: ");
+            string hoten = Console.ReadLine();
 
             // bai1
-            if (!string.IsNullOrWhiteSpace(input))
+            if (!string.IsNullOrWhiteSpace(hoten))
             {
-                string name = input.Trim();
+                string name = hoten.Trim();
                 string[] words = name.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
                 string result = "";
@@ -21,18 +21,18 @@
                     result += ten + " ";
                 }
 
-                Console.WriteLine("BAI 1--- Họ tên chuẩn hoá: " + result.Trim());
-                Console.WriteLine("BAI 2--- Số từ trong tên : " + result.Length);
+                Console.WriteLine("BAI 1--- Ho ten chuan hoa: " + result.Trim());
+                Console.WriteLine("BAI 2--- So tu trong chuoi: " + result.Length);
             }
 
             //bai3
-            if (input == null)
+            if (hoten == null)
             {
-                Console.WriteLine("Chuỗi không đối xứng");
+                Console.WriteLine("Chuoi khong doi xung");
             }
             else
             {
-                string p = input.Replace(" ", "").ToLower();
+                string p = hoten.Replace(" ", "").ToLower();
                 bool doiXung = true;
 
                 for (int i = 0; i < p.Length / 2; i++)
@@ -45,28 +45,28 @@
                 }
 
                 if (doiXung)
-                    Console.WriteLine("BAI 3-- Chuỗi đối xứng");
+                    Console.WriteLine("BAI 3-- Chuoi doi xung");
                 else
-                    Console.WriteLine("BAI 3-- Chuỗi không đối xứng");
+                    Console.WriteLine("BAI 3-- Chuoi khong doi xung");
             }
 
             //bai4 
-            Console.WriteLine("Nhập số phần tử: ");
+            Console.WriteLine("BAI 4 -- Nhap so phan tu: ");
             int spt = int.Parse(Console.ReadLine());
             if (spt <= 0)
             {
-                Console.WriteLine("Mảng rỗng");
+                Console.WriteLine("Màn rong");
                 return;
             }
             int[] mang = new int[spt];
             int tong = 0;
             for (int i = 0; i < spt; i++)
             {
-                Console.WriteLine("Nhập các phần tử thứ " + (i) + " : ");
+                Console.WriteLine("Nhap phan tu thu " + (i) + " : ");
                 mang[i] = int.Parse(Console.ReadLine());
                 tong += mang[i];
             }
-            Console.WriteLine("BAI 4-- Tổng các phần tử trong mảng: " + tong);
+            Console.WriteLine("Tong cac phan tu trong mang: " + tong);
 
             //bai5
             int max = mang[0];
@@ -77,8 +77,84 @@
                     max = mang[i];
                 }
             }
-            Console.WriteLine("BAI 5-- Phần tử lớn nhất trong mảng: " + max);
+            Console.WriteLine("BAI 5-- Phan tu lon nhat trong mang: " + max);
 
+            //bai6
+            int demsochan = 0;
+            if (spt == 0)
+            {
+                Console.WriteLine("BAI 6-- Tong so phan tu trong mang: 0");
+            }
+            else
+            {
+                for (int i = 0; i < spt; i++)
+                {
+                    if (mang[i] % 2 == 0)
+                        demsochan++;
+                }
+            }
+            Console.WriteLine("BAI 6-- Tong so phan tu trong mang: " + demsochan);
+
+            //bai7
+
+            if (hoten == null)
+            {
+                Console.WriteLine("BAI 7-- Chuoi rong");
+                return;
+            }
+            string[] tu = hoten.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            if (tu == null || tu.Length == 0)
+            {
+                Console.WriteLine("Mang rong.");
+                return;
+            }
+            Console.WriteLine("BAI 7-- Cac tu trong mang:");
+            for (int i = 0; i < tu.Length; i++)
+            {
+                Console.WriteLine(tu[i]);
+            }
+
+            //bai8
+            
+            string tudainhat = tu[0];
+            for (int i = 1; i < tu.Length; i++)
+            {
+                if (tu[i].Length > tudainhat.Length)
+                {
+                    tudainhat = tu[i];
+                }
+            }
+            Console.WriteLine("BAI 8-- Tu dai nhat trong chuoi: " + tudainhat);
+
+            //bai9
+            Console.WriteLine("BAI 9 -- Nhap so phan tu chuoi: ");
+            spt = int.Parse(Console.ReadLine());
+            if (spt <= 0)
+            {
+                Console.WriteLine("So chuoi khac null và rong: 0");
+                return;
+            }
+            string[] chuoi9 = new string[spt];
+            for (int i = 0; i < spt; i++)
+            {
+                Console.WriteLine("Nhap chuoi thu " + i + ": ");
+                chuoi9[i] = Console.ReadLine();
+            }
+            if (chuoi9 == null || chuoi9.Length == 0)
+            {
+                Console.WriteLine("So chuoi khac null và rong: 0");
+                return;
+            }
+            int dem = 0;
+            for (int i = 0; i < spt; i++)
+            {
+                if (!string.IsNullOrWhiteSpace(chuoi9[i]))
+                {
+                    dem++;
+                }
+            }
+
+            Console.WriteLine("So chuoi khac null và rong: " + dem);
         }
     }
 }

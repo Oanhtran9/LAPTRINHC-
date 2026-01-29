@@ -21,9 +21,10 @@
                     result += ten + " ";
                 }
 
-                Console.WriteLine("Họ tên chuẩn hoá: " + result.Trim());
-                Console.WriteLine("Số từ trong tên : " + result.Length);
+                Console.WriteLine("BAI 1--- Họ tên chuẩn hoá: " + result.Trim());
+                Console.WriteLine("BAI 2--- Số từ trong tên : " + result.Length);
             }
+
             //bai3
             if (input == null)
             {
@@ -44,13 +45,19 @@
                 }
 
                 if (doiXung)
-                    Console.WriteLine("Chuỗi đối xứng");
+                    Console.WriteLine("BAI 3-- Chuỗi đối xứng");
                 else
-                    Console.WriteLine("Chuỗi không đối xứng");
+                    Console.WriteLine("BAI 3-- Chuỗi không đối xứng");
             }
-            //bai4
+
+            //bai4 
             Console.WriteLine("Nhập số phần tử: ");
             int spt = int.Parse(Console.ReadLine());
+            if (spt <= 0)
+            {
+                Console.WriteLine("Mảng rỗng");
+                return;
+            }
             int[] mang = new int[spt];
             int tong = 0;
             for (int i = 0; i < spt; i++)
@@ -59,7 +66,19 @@
                 mang[i] = int.Parse(Console.ReadLine());
                 tong += mang[i];
             }
-            Console.WriteLine("Tổng các phần tử trong mảng: " + tong);
+            Console.WriteLine("BAI 4-- Tổng các phần tử trong mảng: " + tong);
+
+            //bai5
+            int max = mang[0];
+            for (int  i = 1;  i < spt;  i++)
+            {
+                if (mang[i] > max)
+                {
+                    max = mang[i];
+                }
+            }
+            Console.WriteLine("BAI 5-- Phần tử lớn nhất trong mảng: " + max);
+
         }
     }
 }

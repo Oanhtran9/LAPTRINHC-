@@ -48,6 +48,18 @@
                 else
                     Console.WriteLine("Chuỗi không đối xứng");
             }
+            //bai4
+            Console.WriteLine("Nhập số phần tử: ");
+            int spt = int.Parse(Console.ReadLine());
+            int[] mang = new int[spt];
+            int tong = 0;
+            for (int i = 0; i < spt; i++)
+            {
+                Console.WriteLine("Nhập các phần tử thứ " + (i) + " : ");
+                mang[i] = int.Parse(Console.ReadLine());
+                tong += mang[i];
+            }
+            Console.WriteLine("Tổng các phần tử trong mảng: " + tong);
         }
     }
 }

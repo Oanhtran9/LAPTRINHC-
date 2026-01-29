@@ -1,0 +1,15 @@
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\bin\Debug\net8.0\Tuan_2.exe
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\bin\Debug\net8.0\Tuan_2.deps.json
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\bin\Debug\net8.0\Tuan_2.runtimeconfig.json
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\bin\Debug\net8.0\Tuan_2.dll
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\bin\Debug\net8.0\Tuan_2.pdb
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\obj\Debug\net8.0\Tuan_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\obj\Debug\net8.0\Tuan_2.AssemblyInfoInputs.cache
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\obj\Debug\net8.0\Tuan_2.AssemblyInfo.cs
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\obj\Debug\net8.0\Tuan_2.csproj.CoreCompileInputs.cache
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\obj\Debug\net8.0\Tuan_2.sourcelink.json
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\obj\Debug\net8.0\Tuan_2.dll
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\obj\Debug\net8.0\refint\Tuan_2.dll
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\obj\Debug\net8.0\Tuan_2.pdb
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\obj\Debug\net8.0\Tuan_2.genruntimeconfig.cache
+D:\KY6\LTC#\GIT\Tuan_2\Tuan_2\obj\Debug\net8.0\ref\Tuan_2.dll

@@ -1,0 +1,14 @@
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\bin\Debug\net8.0\BaiTap.exe
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\bin\Debug\net8.0\BaiTap.deps.json
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\bin\Debug\net8.0\BaiTap.runtimeconfig.json
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\bin\Debug\net8.0\BaiTap.dll
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\bin\Debug\net8.0\BaiTap.pdb
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\obj\Debug\net8.0\BaiTap.GeneratedMSBuildEditorConfig.editorconfig
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\obj\Debug\net8.0\BaiTap.AssemblyInfoInputs.cache
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\obj\Debug\net8.0\BaiTap.AssemblyInfo.cs
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\obj\Debug\net8.0\BaiTap.csproj.CoreCompileInputs.cache
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\obj\Debug\net8.0\BaiTap.dll
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\obj\Debug\net8.0\refint\BaiTap.dll
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\obj\Debug\net8.0\BaiTap.pdb
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\obj\Debug\net8.0\BaiTap.genruntimeconfig.cache
+D:\KY6\LTC#\Tuan5\BaiTap\BaiTap\obj\Debug\net8.0\ref\BaiTap.dll
